@@ -1,0 +1,12 @@
+Para acessar o Git Bash em determinada pasta, basta estar na pasta escolhida e clicar com botão direito do mouse e clicar em Git Bash Here;
+
+# No terminal do Git Bash
+
+- Clonar repositório do GitHub para máquina local:
+git clone "link do repositório"
+
+- Verificar se há alguma alteração para realizar commit:
+git status
+
+- Commitar tudo para o GitHub
+git add . ou git add -A
