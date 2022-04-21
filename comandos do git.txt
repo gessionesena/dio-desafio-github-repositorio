@@ -5,8 +5,14 @@ Para acessar o Git Bash em determinada pasta, basta estar na pasta escolhida e c
 - Clonar repositório do GitHub para máquina local:
 git clone "link do repositório"
 
-- Verificar se há alguma alteração para realizar commit:
+- Verificar se há alguma alteração:
 git status
 
-- Commitar tudo para o GitHub
+- Adicionar todas as alterações para o controle de versão LOCAL:
 git add . ou git add -A
+
+- Commitar as alterações na máquina local:
+git commit -m "comentário entre aspas para descrever o commit"
+
+- Realizar push para repositório na nuvem:
+git push origin main  (main é a branch principal, atentar-se)
