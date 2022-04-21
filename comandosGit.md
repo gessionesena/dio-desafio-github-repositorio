@@ -23,3 +23,7 @@
 - Realizar push para repositório na nuvem:
 
 `git push origin main  (main é a branch principal, atentar-se)`
+
+- Atualizar repositório local devido alterações feitas diretamente no remoto:
+
+`git pull origin`
